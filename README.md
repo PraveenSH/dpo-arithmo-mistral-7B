@@ -4,7 +4,7 @@ Aligning LLM with Direct Preference Optimization and LoRA to improve the mathema
 ## Introduction
 [Arithmo-Mistral-7B](https://github.com/akjindal53244/Arithmo-Mistral-7B) was trained to reason and answer mathematical problems. The model was trained with [Arithmo-data](https://huggingface.co/datasets/akjindal53244/Arithmo-Data).
 
-In this work, we further align the model using preference dataset and direct preference optimization method [DPO](https://arxiv.org/abs/2305.18290).
+In this work, we further align the model using preference dataset and direct preference optimization method ([DPO](https://arxiv.org/abs/2305.18290)).
 
 ## Dataset
 The preference dataset is derived from the [stack exchange dataset](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences) which contains questions and answers from the Stack Overflow Data Dump for the purpose of preference model training. This contains questions and answers for various topics. For this work, we used only question and answers from [math.stackexchange.com](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences/tree/main/data/math.meta.stackexchange.com) sub-folder.
