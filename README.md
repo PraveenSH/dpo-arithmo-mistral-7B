@@ -26,5 +26,18 @@ We performed following processing to derive the final dataset.
 3) The final checkpoint is released here [hugging face link]()
 
 ## Model evaluation
+The model is evaluated on [gsm8k test set](https://huggingface.co/datasets/gsm8k/viewer/main/test). Evaluation is performed in exactly the same way as in base [arithmo model](https://github.com/akjindal53244/Arithmo-Mistral-7B)
 
-## Results
+Results for all models except `dpo-arithmo-mistral-7B` are taken from [arithmo-mistral-7b](https://github.com/akjindal53244/Arithmo-Mistral-7B) repository.
+
+## References
+
+```
+@online{h4stackexchange,
+  author = {Lambert, Nathan and Tunstall, Lewis and Rajani, Nazneen and Thrush, Tristan},
+  title = {HuggingFace H4 Stack Exchange Preference Dataset},
+  year = 2023,
+  url = {https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences},
+}
+```
+
