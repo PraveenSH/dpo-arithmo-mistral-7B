@@ -18,7 +18,7 @@ We performed following processing to derive the final dataset.
 1) Basic pre-processing ([code](https://github.com/PraveenSH/dpo-arithmo-mistral-7B/blob/main/src/data_processing/stack_exchange_data.py)) to clean the text
 2) Filter Mathematical question using regex based detector ([code](https://github.com/PraveenSH/dpo-arithmo-mistral-7B/blob/main/src/data_processing/stack_exchange_data.py))
 3) For each question, extract 2 answers - one with highest score and one with the lowest score. Former is used as Preferred response and latter is used as the rejected response
-4) The final dataset contains ~18k samples and the dataset can be found here - [hugginf-face link]()
+4) The final dataset contains ~18k samples and the dataset can be found here - [hugginf-face link](https://huggingface.co/datasets/prhegde/preference-data-math-stack-exchange)
 
 ## Model training.
 1) The model is initialized with the [Arithmo-Mistral-7B](https://huggingface.co/akjindal53244/Arithmo-Mistral-7B) checkpoint
