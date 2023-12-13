@@ -7,7 +7,7 @@ Aligning LLM with Direct Preference Optimization and LoRA to improve the mathema
 In this work, we further align the model using preference dataset and direct preference optimization method ([DPO](https://arxiv.org/abs/2305.18290)).
 
 ## Dataset
-The preference dataset is derived from the [stack exchange dataset](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences) which contains questions and answers from the Stack Overflow Data Dump for the purpose of preference model training. This contains questions and answers for various topics. For this work, we used only question and answers from [math.stackexchange.com](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences/tree/main/data/math.meta.stackexchange.com) sub-folder.
+The preference dataset is derived from the [stack exchange dataset](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences) which contains questions and answers from the Stack Overflow Data Dump. This contains questions and answers for various topics. For this work, we used only question and answers from [math.stackexchange.com](https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences/tree/main/data/math.meta.stackexchange.com) sub-folder.
 
 The questions are grouped with answers that are assigned a score corresponding to the Anthropic paper:
 ```
